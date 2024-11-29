@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Syntax Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="title">Space Syntax </h1>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+        
+            <!-- Uniform Images in a Grid , add your own images in the "img" folder, then link them here-->
+            <section class="map-section">
+                <img id="image1" src="img/britain3.png" alt="Map 1" class="map-image" data-caption="add image caption here">
+                <img id="image2" src="img/britain2.png" alt="Map 2" class="map-image" data-caption="add image caption here">
+                <img id="image3" src="img/britain3.png" alt="Map 3" class="map-image" data-caption="add image caption here">
+                <img id="image4" src="img/britain2.png" alt="Map 4" class="map-image" data-caption="add image caption here">
+                <img id="image5" src="img/britain3.png" alt="Map 5" class="map-image" data-caption="add image caption here">
+            </section>
+            
+        <!-- Modal for Images -->
+        <div id="imageModal" class="modal">
+            <span class="close" id="closeModal">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption" class="caption"></div>
+        </div>
+
+        <!-- Text and Labels Section , make changes to text here-->
+        <section class="info-section">
+            <h2>Map Details</h2>
+            <p>Produced as part of the Company's mission to disseminate the Space Syntax approach in ways that are affordable and accessible, the OpenMapping project provides data on two key spatial accessibility measures commonly used in research and professional practice:</p>
+            <div class="details-container">
+                <div class="details-column">
+                    <h3>Key Measures:</h3>
+                    <ul>
+                        <li><strong>Choice:</strong> The likelihood that movement will pass through any particular street.</li>
+                        <li><strong>Integration:</strong> The relative ease with which any location can be reached from all other locations.</li>
+                        <li><strong>Integration:</strong> The relative ease with which any location can be reached from all other locations.</li>
+                        <li><strong>Integration:</strong> The relative ease with which any location can be reached from all other locations.</li>
+                    </ul>
+                </div>
+                <div class="details-column">
+                    <h3>Spatial Scales:</h3>
+                    <ul>
+                        <li><strong>2km:</strong> Helpful when assessing the walkability of an area.</li>
+                        <li><strong>10km:</strong> Often used to assess vehicle movement patterns.</li>
+                        <li><strong>100km:</strong> A scale that typically reveals regional inequalities.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
